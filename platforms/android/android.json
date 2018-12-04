@@ -13,7 +13,7 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"cordova-plugin-ipsmapSDK\"><param name=\"android-package\" value=\"cordova-plugin-ipsmapSDK.cordova-plugin-ipsmapSDK\" /></feature>",
+              "xml": "<feature name=\"cordova-plugin-ipsmapSDK\"><param name=\"android-package\" value=\"cordovaPluginIpsmapSDK.cordovaPluginIpsmapSDK\" /></feature>",
               "count": 1
             }
           ]

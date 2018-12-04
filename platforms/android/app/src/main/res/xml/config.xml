@@ -22,6 +22,6 @@
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <feature name="cordova-plugin-ipsmapSDK">
-        <param name="android-package" value="cordova-plugin-ipsmapSDK.cordova-plugin-ipsmapSDK" />
+        <param name="android-package" value="cordovaPluginIpsmapSDK.cordovaPluginIpsmapSDK" />
     </feature>
 </widget>
