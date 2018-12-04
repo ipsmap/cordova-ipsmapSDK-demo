@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-ipsmapSDK",
+  "version": "0.0.1",
+  "description": "室内导航IpsmapSDK cordova插件",
+  "cordova": {
+    "id": "cordova-plugin-ipsmapSDK",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "ipsmap",
+  "license": "ISC"
+}
