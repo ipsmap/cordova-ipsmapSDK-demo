@@ -8,36 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		184A801E1EE34D5B92D07A1B /* IpsLocationShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EF2B273F34DE7A8FF5F76 /* IpsLocationShareHandle.m */; };
+		19580DE9A67B4895AFB3A269 /* IpsmapSDKPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F8750C3D4B41109C57F73B /* IpsmapSDKPlugin.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		455D6594D76641E19B22DC80 /* IpsLocationShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B593ABB39AC44D1A068A1CA /* IpsLocationShareHandle.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		774522BFB745E5665F272392 /* libPods-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 723890A355584DB3D287F5ED /* libPods-demo.a */; };
-		9B0218869E6249509B5D4810 /* IpsmapSDKPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E1630838A44924A629B480 /* IpsmapSDKPlugin.m */; };
-		AFB939BEFBB2478D8B5F8755 /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AFD5F3A074FBFADBCF5F9 /* ExampleLocationViewController.m */; };
+		FF19D4F806EC40F29F323111 /* ExampleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9A274A6B8B4F64B60391B1 /* ExampleLocationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
 		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
 		3FFB89B121B6C82D0081329C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
@@ -45,13 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001107FE2B9447DC80EBA86B /* IpsmapSDKPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IpsmapSDKPlugin.h; path = "cordova-plugin-ipsmapSDK/IpsmapSDKPlugin.h"; sourceTree = "<group>"; };
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = demo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0C9A274A6B8B4F64B60391B1 /* ExampleLocationViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ExampleLocationViewController.m; path = "cordova-plugin-ipsmapSDK/ExampleLocationViewController.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2EF2B273F34DE7A8FF5F76 /* IpsLocationShareHandle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IpsLocationShareHandle.m; path = "cordova-plugin-ipsmapSDK/IpsLocationShareHandle.m"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
@@ -60,15 +61,14 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* demo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "demo-Prefix.pch"; sourceTree = "<group>"; };
-		344383FA5CF041FFAEC6819D /* IpsLocationShareHandle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IpsLocationShareHandle.h; path = "cordova-plugin-ipsmapSDK/IpsLocationShareHandle.h"; sourceTree = "<group>"; };
-		39E1630838A44924A629B480 /* IpsmapSDKPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IpsmapSDKPlugin.m; path = "cordova-plugin-ipsmapSDK/IpsmapSDKPlugin.m"; sourceTree = "<group>"; };
-		3B593ABB39AC44D1A068A1CA /* IpsLocationShareHandle.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IpsLocationShareHandle.m; path = "cordova-plugin-ipsmapSDK/IpsLocationShareHandle.m"; sourceTree = "<group>"; };
-		3E3AFD5F3A074FBFADBCF5F9 /* ExampleLocationViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = ExampleLocationViewController.m; path = "cordova-plugin-ipsmapSDK/ExampleLocationViewController.m"; sourceTree = "<group>"; };
+		37F8750C3D4B41109C57F73B /* IpsmapSDKPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = IpsmapSDKPlugin.m; path = "cordova-plugin-ipsmapSDK/IpsmapSDKPlugin.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = demo/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		723890A355584DB3D287F5ED /* libPods-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B92890452674AA086667425 /* IpsLocationShareHandle.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IpsLocationShareHandle.h; path = "cordova-plugin-ipsmapSDK/IpsLocationShareHandle.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "demo-Info.plist"; path = "demo/demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		91A061F1E5BD4A3E96F689D2 /* ExampleLocationViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ExampleLocationViewController.h; path = "cordova-plugin-ipsmapSDK/ExampleLocationViewController.h"; sourceTree = "<group>"; };
-		CC1737C39A4E4829B16369F1 /* APIKey.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = "cordova-plugin-ipsmapSDK/APIKey.h"; sourceTree = "<group>"; };
+		B4694B481D56468F93C87C67 /* APIKey.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APIKey.h; path = "cordova-plugin-ipsmapSDK/APIKey.h"; sourceTree = "<group>"; };
+		CC8D9DCEA17443FDA9975DBB /* IpsmapSDKPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = IpsmapSDKPlugin.h; path = "cordova-plugin-ipsmapSDK/IpsmapSDKPlugin.h"; sourceTree = "<group>"; };
+		DF1E2C135A984BD183A0F395 /* ExampleLocationViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = ExampleLocationViewController.h; path = "cordova-plugin-ipsmapSDK/ExampleLocationViewController.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -109,13 +109,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+		29B97314FDCFA39411CA2CEA = {
 			isa = PBXGroup;
 			children = (
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
-				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -180,13 +180,13 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				CC1737C39A4E4829B16369F1 /* APIKey.h */,
-				001107FE2B9447DC80EBA86B /* IpsmapSDKPlugin.h */,
-				39E1630838A44924A629B480 /* IpsmapSDKPlugin.m */,
-				344383FA5CF041FFAEC6819D /* IpsLocationShareHandle.h */,
-				3B593ABB39AC44D1A068A1CA /* IpsLocationShareHandle.m */,
-				91A061F1E5BD4A3E96F689D2 /* ExampleLocationViewController.h */,
-				3E3AFD5F3A074FBFADBCF5F9 /* ExampleLocationViewController.m */,
+				1F2EF2B273F34DE7A8FF5F76 /* IpsLocationShareHandle.m */,
+				37F8750C3D4B41109C57F73B /* IpsmapSDKPlugin.m */,
+				0C9A274A6B8B4F64B60391B1 /* ExampleLocationViewController.m */,
+				B4694B481D56468F93C87C67 /* APIKey.h */,
+				8B92890452674AA086667425 /* IpsLocationShareHandle.h */,
+				CC8D9DCEA17443FDA9975DBB /* IpsmapSDKPlugin.h */,
+				DF1E2C135A984BD183A0F395 /* ExampleLocationViewController.h */,
 			);
 			name = Plugins;
 			path = demo/Plugins;
@@ -220,7 +220,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				A98CBE11DE4BF3973A2A6DF3 /* [CP] Embed Pods Frameworks */,
+				FEE9C005D8BC04147F17B631 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,13 +247,13 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
 			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
 					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
-					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -327,7 +327,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A98CBE11DE4BF3973A2A6DF3 /* [CP] Embed Pods Frameworks */ = {
+		FEE9C005D8BC04147F17B631 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,9 +355,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				455D6594D76641E19B22DC80 /* IpsLocationShareHandle.m in Sources */,
-				9B0218869E6249509B5D4810 /* IpsmapSDKPlugin.m in Sources */,
-				AFB939BEFBB2478D8B5F8755 /* ExampleLocationViewController.m in Sources */,
+				184A801E1EE34D5B92D07A1B /* IpsLocationShareHandle.m in Sources */,
+				19580DE9A67B4895AFB3A269 /* IpsmapSDKPlugin.m in Sources */,
+				FF19D4F806EC40F29F323111 /* ExampleLocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,4 @@
 {
-    "'WechatOpenSDK'": {
-        "name": "'WechatOpenSDK'",
-        "type": "podspec",
-        "count": 1
-    },
     "IpsmapSDK": {
         "name": "IpsmapSDK",
         "type": "podspec",
