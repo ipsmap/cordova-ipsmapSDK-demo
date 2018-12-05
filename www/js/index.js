@@ -35,28 +35,30 @@ var app = {
         
         document.getElementById("item-showMap").onclick=function(){
             //显示地图
-            cordova.exec((winParam)=>{
-                         console.log('ssssss', winParam);
-                         },
-                         (error)=>{
-                         console.error(error);
-                         },
-                         "cordova-plugin-ipsmapSDK",
-                         "showMap"
-                         );
+            cordova.plugins.ipsmapSDKPlugin.showMap();
+//            cordova.exec((winParam)=>{
+//                         console.log('ssssss', winParam);
+//                         },
+//                         (error)=>{
+//                         console.error(error);
+//                         },
+//                         "cordova-plugin-ipsmapSDK",
+//                         "showMap"
+//                         );
         };
         document.getElementById("item-naviTo").onclick=function(){
             //导航到具体位置
-            cordova.exec((winParam)=>{
-                         console.log('ssssss', winParam);
-                         },
-                         (error)=>{
-                         console.error(error);
-                         },
-                         "cordova-plugin-ipsmapSDK",
-                         "naviTo",
-                         ["成人中医(珠)", "200191"]
-                         );
+            cordova.plugins.ipsmapSDKPlugin.naviTo( "lGaWCUtqoj", "成人中医(珠)", "200191");
+//            cordova.exec((winParam)=>{
+//                         console.log('ssssss', winParam);
+//                         },
+//                         (error)=>{
+//                         console.error(error);
+//                         },
+//                         "cordova-plugin-ipsmapSDK",
+//                         "naviTo",
+//                         ["成人中医(珠)", "200191"]
+//                         );
         };
         document.getElementById("item-location").onclick=function(){
             //判断是否在地图内

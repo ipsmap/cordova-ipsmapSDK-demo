@@ -1,5 +1,9 @@
 var exec = require('cordova/exec');
 
-exports.showMap = function (arg0, success, error) {
-    exec(success, error, 'cordova-plugin-ipsmapSDK', 'showMap', [arg0]);
+exports.showMap = function ( success, error) {
+    exec(success, error, 'cordova-plugin-ipsmapSDK', 'showMap');
+};
+               
+exports.naviTo = function (mapId, targetName, targetId, success, error) {
+    exec(success, error, 'cordova-plugin-ipsmapSDK', 'naviTo', [targetName, targetId] );
 };
