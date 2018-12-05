@@ -19,11 +19,18 @@
 
 package com.ipsmap.cordovaDemo;
 
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
+import android.widget.Toast;
+
 import org.apache.cordova.*;
 
 public class MainActivity extends CordovaActivity
 {
+    private static final int REQUEST_LOCATION = 1;
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -37,5 +44,34 @@ public class MainActivity extends CordovaActivity
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+    }
+
+    public boolean hasPermission(String... permissons) {
+        for (String permisson : permissons) {
+            if ((ContextCompat.checkSelfPermission(this,
+                    permisson) != PackageManager.PERMISSION_GRANTED)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void requestPermission(int requestCode, String... permissions) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            requestPermissions(permissions, requestCode);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case REQUEST_LOCATION:
+//                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                    ipsClient.start();
+//                } else {
+//                    Toast.makeText(MainActivity.this, "请授予权限", Toast.LENGTH_SHORT).show();
+//                }
+                break;
+        }
     }
 }

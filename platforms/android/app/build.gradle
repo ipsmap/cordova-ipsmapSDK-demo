@@ -267,6 +267,8 @@ dependencies {
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
     compile ('com.ipsmap:ipsmap:1.4.5')
+    // 调用起微信必须要的引用
+//    compile ('com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+')
 }
 
 def promptForReleaseKeyPassword() {

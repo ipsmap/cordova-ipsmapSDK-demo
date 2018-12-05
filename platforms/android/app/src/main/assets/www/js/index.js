@@ -16,6 +16,30 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+var list = [
+  permissions.ACCESS_FINE_LOCATION,
+  permissions.ACCESS_COARSE_LOCATION,
+  permissions.WRITE_EXTERNAL_STORAGE
+];
+
+
+function error() {
+  console.warn('Camera or Accounts permission is not turned on');
+}
+
+function success( status ) {
+  if( !status.hasPermission ) {
+
+    permissions.requestPermissions(
+      list,
+      function(status) {
+        if( !status.hasPermission ) error();
+      },
+      error);
+  }
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -46,6 +70,9 @@ var app = {
                          );
         };
         document.getElementById("item-naviTo").onclick=function(){
+//            permissions.hasPermission(list, callback, null);
+
+
             //导航到具体位置
         };
         document.getElementById("item-location").onclick=function(){
