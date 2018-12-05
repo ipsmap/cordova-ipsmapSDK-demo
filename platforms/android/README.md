@@ -122,7 +122,7 @@ IpsMapSDK.openIpsMapActivity(Context context, String mapId, String targetId);
 
 启动地图方式1,携带目的地和地图id,导航到目的地
 ```
-MapPlugin 添加
+
 
 IpsMapSDK.openIpsMapActivity(Context context, String mapId, String targetId);
 
@@ -130,7 +130,6 @@ IpsMapSDK.openIpsMapActivity(Context context, String mapId, String targetId);
 
 启动地图方式2,仅仅传递地图的id
 ```
-MapPlugin 添加
 IpsMapSDK.openIpsMapActivity(Context context, String mapId);
 
 ```
@@ -151,8 +150,8 @@ IpsMapSDK.openIpsMapActivity(Context context, String mapId);
 
 ## FAQ
 1.0
-![](/pic/7991511168017_.pic.jpg)
-![](/pic/8021511168507_.pic.jpg)
+![](./pic/7991511168017_.pic.jpg)
+![](./pic/8021511168507_.pic.jpg)
 出现上面的类似xml资源文件缺失的情况:
 两种解决方案:
 1. 在通过gradle 引用是加入exclude group: 'com.android.support' ,并且自己加入compile 'com.android.support:appcompat-v7:版本号'
@@ -176,7 +175,7 @@ app如果使用了okhttp ,glide ...出现第三发开源库 冲突
 
  3.0
  
-![](/pic/AC0BDB3E-C313-4644-AB5F-F3C8FA209AEC.png) 
+![](./pic/AC0BDB3E-C313-4644-AB5F-F3C8FA209AEC.png) 
 ```
 
 
