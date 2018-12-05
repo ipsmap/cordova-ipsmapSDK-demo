@@ -27,13 +27,68 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import <IpsmapSDK/IpsmapSDK.h>
+#import "APIKey.h"
+#import "WXApi.h"
+#import "IpsLocationShareHandle.h"
+
+@interface AppDelegate ()<WXApiDelegate>
+    
+@end
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
+    [WXApi registerApp:wxAppID];
+    //初始化Ipsmap
+    [IpsmapServices setAppKey:(NSString *)APIKey];
+    
+    //检测位置共享口令是否存在
+    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ipsReceiveShareInfo:) name:IpsReceiveShareInfoNotification object:nil];
+    [[IpsmapServices sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    //登录成功后或者获取到用户信息后调用
+    IpsUserInfo *userInfo = [IpsUserInfo new];
+    userInfo.name = @"张三";
+    userInfo.phoneNumber = @"13888888888";
+    [IpsmapServices sharedInstance].userInfo = userInfo;
+    
     self.viewController = [[MainViewController alloc] init];
     return [super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+    
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    if ([url.scheme isEqualToString:wxAppID]) {
+        return [WXApi handleOpenURL:url delegate:self];
+    } else if ([url.scheme isEqualToString:IpsScheme])
+    return [[IpsmapServices sharedInstance] application:application openURL:url delegate:[IpsLocationShareHandle sharedInstance]];
+    return YES;
+}
+    
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
+    if ([url.scheme isEqualToString:wxAppID]) {
+        return [WXApi handleOpenURL:url delegate:self];
+    } else if ([url.scheme isEqualToString:IpsScheme])
+    return [[IpsmapServices sharedInstance] application:app openURL:url delegate:[IpsLocationShareHandle sharedInstance]];
+    return YES;
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+    [[IpsmapServices sharedInstance] applicationWillEnterForeground:application];
+}
+
+- (void)ipsReceiveShareInfo:(NSNotification *)noti {
+    if (noti.object == nil || ![noti.object isKindOfClass:[UIView class]]) {
+        return;
+    }
+    
+    UIView *viewJoin = (UIView *)noti.object;
+    //有分享口令
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [viewJoin performSelector:@selector(showInView:) withObject:[UIApplication sharedApplication].keyWindow];
+    });
 }
 
 @end

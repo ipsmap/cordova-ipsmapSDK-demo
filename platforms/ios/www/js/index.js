@@ -47,9 +47,26 @@ var app = {
         };
         document.getElementById("item-naviTo").onclick=function(){
             //导航到具体位置
+            cordova.exec((winParam)=>{
+                         },
+                         (error)=>{
+                         console.error(error);
+                         },
+                         "cordova-plugin-ipsmapSDK",
+                         "naviTo",
+                         ["成人中医(珠)", "200191"]
+                         );
         };
         document.getElementById("item-location").onclick=function(){
             //判断是否在地图内
+            cordova.exec((winParam)=>{
+                         },
+                         (error)=>{
+                         console.error(error);
+                         },
+                         "cordova-plugin-ipsmapSDK",
+                         "location"
+                         );
         };
         
     }

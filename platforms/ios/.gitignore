@@ -5,3 +5,7 @@
 build/
 xcuserdata
 xcshareddata
+
+#CocoaPods
+Pods
+Podfile.lock
