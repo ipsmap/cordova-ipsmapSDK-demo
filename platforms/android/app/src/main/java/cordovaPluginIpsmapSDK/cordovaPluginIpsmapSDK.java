@@ -26,6 +26,15 @@ public class cordovaPluginIpsmapSDK extends CordovaPlugin {
             showMap("showMap",null);
             return true;
         }
+
+
+        if (action.equals("showTargetIdMap")) {
+            String targetId = args.getString(0);
+            showTargetIdMap(targetId,null);
+            return true;
+        }
+
+
         return false;
     }
 
@@ -40,4 +49,16 @@ public class cordovaPluginIpsmapSDK extends CordovaPlugin {
         final String map_id = "lGaWCUtqoj";
         IpsMapSDK.openIpsMapActivity(this.cordova.getActivity(), map_id);
     }
+
+
+    private void showTargetIdMap(String targetId, CallbackContext callbackContext) {
+        final String map_id = "lGaWCUtqoj";
+        IpsMapSDK.openIpsMapActivity(this.cordova.getActivity(), map_id,targetId);
+    }
+
+
+
+
+
+
 }
