@@ -266,7 +266,6 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
-    // marven
     compile ('com.ipsmap:ipsmap:1.4.5')
 }
 

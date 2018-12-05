@@ -1,7 +1,6 @@
 package cordovaPluginIpsmapSDK;
 
 import com.daoyixun.ipsmap.IpsMapSDK;
-import com.orhanobut.logger.Logger;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -17,20 +16,14 @@ public class cordovaPluginIpsmapSDK extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        Logger.e("cordovaPluginIpsmapSDK.....execute");
-//        final String map_id = "lGaWCUtqoj";
-//        IpsMapSDK.openIpsMapActivity(this.cordova.getActivity(), map_id);
         if (action.equals("coolMethod")) {
             String message = args.getString(0);
             this.coolMethod(message, callbackContext);
             return true;
         }
 
-        Logger.e(action);
-
         if (action.equals("showMap")) {
-//            String message = args.getString(0);
-            this.showMap(action, callbackContext);
+            showMap("showMap",null);
             return true;
         }
         return false;
@@ -43,14 +36,8 @@ public class cordovaPluginIpsmapSDK extends CordovaPlugin {
             callbackContext.error("Expected one non-empty string argument.");
         }
     }
-
     private void showMap(String message, CallbackContext callbackContext) {
         final String map_id = "lGaWCUtqoj";
         IpsMapSDK.openIpsMapActivity(this.cordova.getActivity(), map_id);
-//        if (message != null && message.length() > 0) {
-//            callbackContext.success(message);
-//        } else {
-//            callbackContext.error("Expected one non-empty string argument.");
-//        }
     }
 }

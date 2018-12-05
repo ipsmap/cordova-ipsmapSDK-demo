@@ -22,7 +22,7 @@
 
     <config-file parent="/*" target="res/xml/config.xml">
         <feature name="cordova-plugin-ipsmapSDK">
-        <param name="android-package" value="cordovaPluginIpsmapSDK" />
+        <param name="android-package" value="cordovaPluginIpsmapSDK.cordovaPluginIpsmapSDK" />
         </feature>
     </config-file>
     

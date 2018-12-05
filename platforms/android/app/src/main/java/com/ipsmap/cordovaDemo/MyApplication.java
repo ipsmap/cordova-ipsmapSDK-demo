@@ -2,6 +2,7 @@ package com.ipsmap.cordovaDemo;
 
 import android.app.Application;
 import android.graphics.Bitmap;
+import android.widget.Toast;
 
 import com.daoyixun.ipsmap.IpsMapSDK;
 import com.daoyixun.ipsmap.ShareToWechatListener;
