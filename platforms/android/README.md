@@ -100,7 +100,8 @@ armeabi {
 ```
 
 
-配置相关的MapPlugin 
+
+如果主工程已经执行 cordova plugin add ./cordova-plugin-ipsmapSDK 下面的配置不用配置,插件会自动生成先关的代码 
 ```
 在 src/xml/config 中添加插件的配置
 <feature name="MapPlugin">
