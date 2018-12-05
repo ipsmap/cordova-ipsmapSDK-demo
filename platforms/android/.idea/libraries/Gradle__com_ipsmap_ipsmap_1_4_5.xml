@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ipsmap:ipsmap-1.4.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ipsmap/ipsmap/1.4.5/5c74a91ec767dc60e760705e297d31972dcbfb71/ipsmap-1.4.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -37,7 +37,7 @@
 
     </config-file>
     
-    <source-file src="src/android/cordovaPluginIpsmapSDK.java" target-dir="src/cordovaPluginIpsmapSDK/cordovaPluginIpsmapSDK" />
+    <source-file src="src/android/cordovaPluginIpsmapSDK.java" target-dir="src/cordovaPluginIpsmapSDK" />
 
     </platform>
 
