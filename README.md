@@ -1,31 +1,31 @@
 # cordova 引入 ipsmapSDK 简介
 
-## 获取key
-#### http://ipsmap.oss-cn-shanghai.aliyuncs.com/%E9%81%93%E4%B8%80%E5%BE%AA%E5%8C%BB%E9%99%A2%E5%AE%A4%E5%86%85%E5%AF%BC%E8%88%AA%E7%B3%BB%E7%BB%9F%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E7%94%B3%E8%AF%B7%E8%A1%A8%EF%BC%8820180330%EF%BC%89.xlsx 
-#### 下载表格填写后发送到  dev@ipsmap.com  ,工作人员回复相关的 key 和 mapid
+cordova-ipsmapSDK-demo 是一套面向 cordova 开发者使用ipsmapSDK的demo工程，里面包含一个自定义插件cordova-plugin-ipsmapSDK（目前插件暂未上传cordova），
+开发者可自行引用该插件轻松实现地图展示、导航至具体poi等功能
+
+## 获取AppKey
+请填写
+**[申请表](https://github.com/ipsmap/IpsmapSDK-iOS/blob/master/Readme.asset/道一循公司医院客户应用申请表.xlsx)** 
+给dev@ipsmap.com邮件联系获取appKey、mapId、scheme（分享用）
 
 
-## 创建工程并导入插件
-
-
+## 插件引用
+拷贝插件文件夹cordova-plugin-ipsmapSDK至项目目录 (相对路径)
 ```
-拷贝cordova-plugin-ipsmapSDK 内容到项目中,执行以下命令进行生成 IOS 和 Android 平台的插件
 cordova plugin add ./cordova-plugin-ipsmapSDK
+```
+如果已经添加cordova-plugin-ipsmapSDK,请先移除,在进行添加
+```
 cordova plugin remove cordova-plugin-ipsmapSDK
-如果已经添加过相关插件,请先移除,在进行添加
-
+cordova plugin add ./cordova-plugin-ipsmapSDK
 ```
 
 
 
 ## 进入 IOS 和 Android 平台查看相关的 README 进行设置
 
-
-```
-/platforms/ios/README
-/platforms/android/README
-
-```
+ #### **[iOS README](https://github.com/ipsmap/cordova-ipsmapSDK-demo/blob/master/platforms/ios/README.md)**
+ #### **[Android README](https://github.com/ipsmap/cordova-ipsmapSDK-demo/blob/master/platforms/android/README.md)** 
 
 
 ### 参考文档如下
