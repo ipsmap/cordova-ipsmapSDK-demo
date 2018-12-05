@@ -1,13 +1,10 @@
-### 参考文档如下
+[![license](https://img.shields.io/hexpm/l/plug.svg)](https://raw.githubusercontent.com/typ0520/fastdex/master/LICENSE)
+[![Download](https://api.bintray.com/packages/xun/maven/com.ipsmap/images/download.svg) ](https://bintray.com/xun/maven/com.ipsmap/_latestVersion)
+[![API](https://img.shields.io/badge/API-18%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=18)
+[![Contact](https://img.shields.io/badge/Author-IpsMap-orange.svg?style=flat)](http://ipsmap.com)
 
-# http://www.cnblogs.com/cnshen/p/4128120.html
-# https://cloud.tencent.com/developer/article/1190017
-# https://www.w3cschool.cn/cordova/
-# https://blog.csdn.net/u012805816/article/details/78551623
+IpsmapSDK-Android 是一套基于 Android 4.3 及以上版本的室内地图应用程序开发接口，供开发者在自己的Android应用中加入室内地图相关的功能，包括：地图显示（多楼层、多栋楼）、室内导航、模拟导航、语音播报等功能。
 
-## 获取key
-从http://ipsmap.oss-cn-shanghai.aliyuncs.com/%E9%81%93%E4%B8%80%E5%BE%AA%E5%8C%BB%E9%99%A2%E5%AE%A4%E5%86%85%E5%AF%BC%E8%88%AA%E7%B3%BB%E7%BB%9F%E5%BA%94%E7%94%A8%E6%8E%A5%E5%85%A5%E7%94%B3%E8%AF%B7%E8%A1%A8%EF%BC%8820180330%EF%BC%89.xlsx
-下载表格填写后发送到  dev@ipsmap.com  ,工作人员回复
 
 ## 添加依赖
 
