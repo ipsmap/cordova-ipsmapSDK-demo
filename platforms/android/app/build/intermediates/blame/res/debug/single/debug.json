@@ -44,12 +44,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-zh-rTW-xhdpi-v4/ipsmap_bg_setting.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_point_nav.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_point_nav.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_point_nav.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_point_nav.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_btn_search_selector2.xml.flat",
@@ -76,12 +76,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_share_close.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_ipsmap_dialog_loc_share.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/layout/ipsmap_dialog_loc_share.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_ipsmap_fragment_search_genre.xml.flat",
@@ -308,12 +308,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/layout/ipsmap_item_footprint_sector.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-hdpi_screen.png.flat",
         "source": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/src/main/res/drawable-port-hdpi/screen.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -388,12 +388,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_grey.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_close2.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_close2.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_close2.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_close2.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -456,16 +456,16 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-mdpi-v4/com_mixpanel_android_ic_sync.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_switch_location.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_switch_location.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_com_mixpanel_android_ic_rocket.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-hdpi-v4/com_mixpanel_android_ic_rocket.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_switch_location.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_switch_location.png"
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-zh-rTW-xhdpi-v4_ipsmap_im_splash.png.flat",
@@ -480,12 +480,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_border_dash_grey.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_dash_grey.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_border_dash_grey.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_dash_grey.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_point_search.png.flat",
@@ -524,24 +524,24 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_ico_u.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_com_mixpanel_android_arrowright_states.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable/com_mixpanel_android_arrowright_states.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b8484939f012fc5791c38ec068766ca3/res/drawable-hdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_ipsmap_activity_footprint.xml.flat",
@@ -632,24 +632,24 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_white3.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim_ipsmap_slide_out_bottom.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/anim/ipsmap_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_com_mixpanel_android_arrowleft.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-xhdpi-v4/com_mixpanel_android_arrowleft.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/anim_ipsmap_slide_out_bottom.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/anim/ipsmap_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_com_mixpanel_android_ic_trophy.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-xxhdpi-v4/com_mixpanel_android_ic_trophy.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_com_mixpanel_android_arrowright_faded.png.flat",
@@ -744,12 +744,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_share_circle_yellow.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/b8484939f012fc5791c38ec068766ca3/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_border_bottom_grey.xml.flat",
@@ -864,12 +864,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout-v11/notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_border_grey15.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_grey15.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_ipsmap_border_grey15.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_grey15.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_share_share.png.flat",
@@ -884,12 +884,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -1096,16 +1096,16 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_ipsmap_item_androidlsr.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/layout/ipsmap_item_androidlsr.xml"
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_com_mixpanel_android_ic_inbox.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-hdpi-v4/com_mixpanel_android_ic_inbox.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_com_mixpanel_android_ic_inbox.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/mixpanel-android-5.4.4.aar/d073ba8291e7729dc1b6aee6b188320f/res/drawable-hdpi-v4/com_mixpanel_android_ic_inbox.png"
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_ipsmap_item_androidlsr.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/layout/ipsmap_item_androidlsr.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
@@ -1136,12 +1136,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_iv_canot_scan.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
@@ -1176,12 +1176,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/layout/ipsmap_dialog_loc_share2.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-zh-rTW-xhdpi-v4_ipsmap_map_enter.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-zh-rTW-xhdpi-v4/ipsmap_map_enter.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-zh-rTW-xhdpi-v4_ipsmap_map_enter.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-zh-rTW-xhdpi-v4/ipsmap_map_enter.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_footprint_bg.png.flat",
@@ -1300,12 +1300,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable/ipsmap_border_green2.xml"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_com_mixpanel_android_logo.png.flat",
@@ -1340,12 +1340,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/abc_edit_text_material.xml"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_pt_ft_arrows_down.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_pt_ft_arrows_down.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1372,12 +1372,12 @@
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-zh-rTW-xhdpi-v4/ipsmap_loc_point_target.png"
     },
     {
-        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_share_friend.png.flat",
-        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_share_friend.png"
-    },
-    {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/5d8359dc87a30fc43bc9edbb49fdcff7/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ipsmap_loc_share_friend.png.flat",
+        "source": "/Users/liberty/.gradle/caches/transforms-1/files-1.1/ipsmap-1.4.5.aar/ca69ef3e0e4a757395c2f288a8e95028/res/drawable-xhdpi-v4/ipsmap_loc_share_friend.png"
     },
     {
         "merged": "/Users/liberty/Documents/cordova-ipsmapSDK-demo/platforms/android/app/build/intermediates/res/merged/debug/drawable-nodpi-v4_com_mixpanel_android_square_selected.9.png.flat",

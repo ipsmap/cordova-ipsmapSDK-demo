@@ -25,5 +25,4 @@
     </platform>
     <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-plugin-ipsmapSDK" spec="./cordova-plugin-ipsmapSDK" />
-    <plugin name="cordova-plugin-android-permissions" spec="^1.0.0" />
 </widget>

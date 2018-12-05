@@ -16,6 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -46,6 +50,17 @@ var app = {
                          );
         };
         document.getElementById("item-naviTo").onclick=function(){
+//            permissions.hasPermission(list, callback, null);
+    cordova.exec((winParam)=>{
+                         console.log('ssssss', winParam);
+                         },
+                         (error)=>{
+                         console.error(error);
+                         },
+                         "cordova-plugin-ipsmapSDK",
+                         "naviTo",["lGaWCUtqoj", "成人中医(珠)", "200191"]
+                         );
+
             //导航到具体位置
         };
         document.getElementById("item-location").onclick=function(){

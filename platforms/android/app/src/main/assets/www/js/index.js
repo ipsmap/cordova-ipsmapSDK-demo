@@ -17,27 +17,7 @@
  * under the License.
  */
 
-var list = [
-  permissions.ACCESS_FINE_LOCATION,
-  permissions.ACCESS_COARSE_LOCATION,
-  permissions.WRITE_EXTERNAL_STORAGE
-];
 
-
-function error() {
-  console.warn('Camera or Accounts permission is not turned on');
-}
-
-function success( status ) {
-  if( !status.hasPermission ) {
-
-    permissions.requestPermissions(
-      list,
-      function(status) {
-        if( !status.hasPermission ) error();
-      },
-      error);
-  }
 
 
 var app = {
@@ -71,7 +51,15 @@ var app = {
         };
         document.getElementById("item-naviTo").onclick=function(){
 //            permissions.hasPermission(list, callback, null);
-
+    cordova.exec((winParam)=>{
+                         console.log('ssssss', winParam);
+                         },
+                         (error)=>{
+                         console.error(error);
+                         },
+                         "cordova-plugin-ipsmapSDK",
+                         "naviTo",["lGaWCUtqoj", "成人中医(珠)", "200191"]
+                         );
 
             //导航到具体位置
         };
