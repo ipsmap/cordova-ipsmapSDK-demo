@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6519fda-1e67-4241-8618-e46596d5ad84" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVDebug.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVJSON_private.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Private/CDVPlugin+Private.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDV.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAppDelegate.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVAvailabilityDeprecated.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegate.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandDelegateImpl.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVCommandQueue.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVConfigParser.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVInvokedUrlCommand.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin+Resources.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVPluginResult.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVScreenOrientationDelegate.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVTimer.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVURLProtocol.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVUserAgentUtil.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVViewController.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWebViewEngineProtocol.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSDictionary+CordovaPreferences.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/Classes/Public/NSMutableArray+QueueAdditions.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/CordovaLib/cordova.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/Api.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_ios_version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_osx_version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/apple_xcode_version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-debug.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-extras.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build-release.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/build.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/check_reqs.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/clean.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/defaults.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/Podfile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/PodsJson.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/build.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/check_reqs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/clean.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/copy-www-build-step.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-devices" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-build-targets" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-emulator-images" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/list-started-emulators" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/plugman/pluginHandlers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/prepare.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/projectFile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/run.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/spawn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/start-emulator" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/lib/versions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/log.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/loggingHelper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/run" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/run.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/version" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/cordova/version.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo.xcodeproj/project.pbxproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo.xcworkspace/contents.xcworkspacedata" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Bridging-Header.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/CDVLaunchScreen.storyboard" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Classes/AppDelegate.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Classes/AppDelegate.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Classes/MainViewController.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Classes/MainViewController.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Classes/MainViewController.xib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Entitlements-Debug.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Entitlements-Release.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-40.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-40@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-50.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-50@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-60@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-60@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-72.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-72@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-76.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-76@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-small.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-small@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon-small@3x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/AppIcon.appiconset/icon@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-667h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-736h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape@2x~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-Landscape~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-Portrait@2x~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default-Portrait~ipad.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default@2x~iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchImage.launchimage/Default~iphone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/Images.xcassets/LaunchStoryboard.imageset/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/config.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/demo-Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/demo-Prefix.pch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/demo/main.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/exportOptions.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/ios.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/exec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/platform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/plugin/ios/console.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova-js-src/plugin/ios/logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/platform_www/cordova_plugins.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/pods-debug.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/pods-release.xcconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/exec.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/platform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/plugin/ios/console.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova-js-src/plugin/ios/logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/platforms/ios/www/js/index.js" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="335" />
+    <option name="y" value="-951" />
+    <option name="width" value="1352" />
+    <option name="height" value="822" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cordova-ipsmapSDK-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-ipsmapSDK-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordova-ipsmapSDK-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordova-ipsmapSDK-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="cordova-ipsmapSDK-demo" type="cbb8eebc:String" user="cordova-ipsmapSDK-demo" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6519fda-1e67-4241-8618-e46596d5ad84" name="Default" comment="" />
+      <created>1543974421250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543974421250</updated>
+      <workItem from="1543974422309" duration="5000" />
+      <workItem from="1543974430453" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="335" y="-951" width="1352" height="822" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2283997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
