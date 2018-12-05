@@ -15,6 +15,10 @@
             {
               "xml": "<feature name=\"cordova-plugin-ipsmapSDK\"><param name=\"android-package\" value=\"cordovaPluginIpsmapSDK.cordovaPluginIpsmapSDK\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"cordova-plugin-ipsmapSDK\"><param name=\"android-package\" value=\"cordovaPluginIpsmapSDK\" /></feature>",
+              "count": 1
             }
           ]
         }

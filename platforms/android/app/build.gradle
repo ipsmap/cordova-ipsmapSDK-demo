@@ -195,30 +195,30 @@ android {
                     abiFilters = ["armeabi"]
                 }
             }
-            armv7 {
-                versionCode defaultConfig.versionCode*10 + 2
-                ndk {
-                    abiFilters = ["armeabi-v7a"]
-                }
-            }
-            arm64 {
-                versionCode defaultConfig.versionCode*10 + 3
-                ndk {
-                    abiFilters = ["arm64-v8a"]
-                }
-            }
-            x86 {
-                versionCode defaultConfig.versionCode*10 + 4
-                ndk {
-                    abiFilters = ["x86"]
-                }
-            }
-            x86_64 {
-                versionCode defaultConfig.versionCode*10 + 5
-                ndk {
-                    abiFilters = ["x86_64"]
-                }
-            }
+//            armv7 {
+//                versionCode defaultConfig.versionCode*10 + 2
+//                ndk {
+//                    abiFilters = ["armeabi-v7a"]
+//                }
+//            }
+//            arm64 {
+//                versionCode defaultConfig.versionCode*10 + 3
+//                ndk {
+//                    abiFilters = ["arm64-v8a"]
+//                }
+//            }
+//            x86 {
+//                versionCode defaultConfig.versionCode*10 + 4
+//                ndk {
+//                    abiFilters = ["x86"]
+//                }
+//            }
+//            x86_64 {
+//                versionCode defaultConfig.versionCode*10 + 5
+//                ndk {
+//                    abiFilters = ["x86_64"]
+//                }
+//            }
         }
     } else if (Boolean.valueOf(cdvVersionCodeForceAbiDigit)) {
         // This provides compatibility to the default logic for versionCode before cordova-android 5.2.0
@@ -266,6 +266,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     implementation(project(path: ":CordovaLib"))
     // SUB-PROJECT DEPENDENCIES END
+    // marven
+    compile ('com.ipsmap:ipsmap:1.4.5')
 }
 
 def promptForReleaseKeyPassword() {
