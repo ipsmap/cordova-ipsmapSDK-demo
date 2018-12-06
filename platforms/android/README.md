@@ -150,8 +150,6 @@ IpsMapSDK.openIpsMapActivity(Context context, String mapId);
 
 ## FAQ
 1.0
-< img alt="IpsmapSDK" src="/pic/7991511168017_.pic.jpg">
-< img alt="IpsmapSDK" src="/pic/8021511168507_.pic.jpg">
 ![](./pic/7991511168017_.pic.jpg)
 ![](./pic/8021511168507_.pic.jpg)
 出现上面的类似xml资源文件缺失的情况:
@@ -178,7 +176,7 @@ app如果使用了okhttp ,glide ...出现第三发开源库 冲突
 
  3.0
  
- < img alt="IpsmapSDK" src="/pic/AC0BDB3E-C313-4644-AB5F-F3C8FA209AEC.png.jpg">
+
  
 ![](./pic/AC0BDB3E-C313-4644-AB5F-F3C8FA209AEC.png) 
 ```
